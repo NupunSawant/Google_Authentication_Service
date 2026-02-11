@@ -1,0 +1,4 @@
+# Google OAuth secrets
+server/client_secret_*.json
+.env
+node_modules/
