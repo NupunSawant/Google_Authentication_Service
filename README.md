@@ -1,11 +1,11 @@
-🔐 Google OAuth2 Authentication (Authorization Code Flow) – Node.js + React
+**🔐 Google OAuth2 Authentication (Authorization Code Flow) – Node.js + React**
 
 A secure authentication system built using Google OAuth 2.0 (Authorization Code Flow with OpenID Connect) integrated into a Node.js + Express backend and React frontend.
 
 This project demonstrates how to implement Google Login and manage user sessions using JWT stored in HttpOnly cookies, with protected API routes.
 
-🚀 Features
-🔑 Google OAuth2 Login
+**🚀 Features
+🔑 Google OAuth2 Login**
 
 Redirects user to Google Consent Screen
 
@@ -13,7 +13,7 @@ Exchanges authorization code for ID token
 
 Extracts user profile (email, name, picture)
 
-🎟️ JWT-Based Session Management
+**🎟️ JWT-Based Session Management**
 
 Backend generates its own JWT after Google authentication
 
@@ -23,7 +23,7 @@ Cookie automatically sent with every request
 
 Secure session verification using middleware
 
-🛡️ Protected Routes
+**🛡️ Protected Routes**
 
 Custom authMiddleware verifies JWT
 
@@ -31,7 +31,7 @@ Unauthorized users receive 401 response
 
 Only authenticated users can access /user/posts
 
-⚛️ React Frontend
+**⚛️ React Frontend**
 
 Dedicated Login Page
 
@@ -41,7 +41,7 @@ Dashboard view for logged-in users
 
 Automatic login state detection
 
-🏗️ Tech Stack
+**🏗️ Tech Stack**
 
 Frontend
 
@@ -73,7 +73,7 @@ OpenID Connect (OIDC)
 
 Authorization Code Flow
 
-🔄 Authentication Flow
+**🔄 Authentication Flow**
 
 1️⃣ User clicks Login with Google
 2️⃣ Redirected to Google Consent Screen
@@ -83,7 +83,7 @@ Authorization Code Flow
 6️⃣ JWT stored in HttpOnly cookie
 7️⃣ Protected routes verify token via middleware
 
-📂 Project Structure
+**📂 Project Structure**
 server/
   config/
   controllers/
@@ -97,7 +97,7 @@ client/
   pages/
   App.jsx
 
-🎯 Learning Outcomes
+**🎯 Learning Outcomes**
 
 This project demonstrates:
 
@@ -137,7 +137,7 @@ Start frontend:
 npm install
 npm start
 
-💡 Why This Project?
+**💡 Why This Project?**
 
 This project focuses on implementing:
 
